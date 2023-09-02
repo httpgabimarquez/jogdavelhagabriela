@@ -1,0 +1,68 @@
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body{
+    background: rgb(193,210,235);
+    background: radial-gradient(circle, rgba(193,210,235,1) 0%, rgba(201,183,226,1) 25%, rgba(64,49,122,1) 100%);
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 9px;
+    font-size: 25px;
+}
+
+.registroplacar{
+    color: white;
+    display: inline;
+}
+
+
+.quadrante{
+    height: 45%;
+    width: 100%;
+    margin: auto;
+ 
+}
+
+
+input{
+    width: 80px;
+    height: 80px;
+    border: 5px solid #40317a;
+    font-size: 60px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+button {
+    background-color: #40317a; 
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.5s ease; 
+    height: 80%;
+    float: none;
+}
+
+button:hover {
+    background-color: #beb1f1; 
+}
+

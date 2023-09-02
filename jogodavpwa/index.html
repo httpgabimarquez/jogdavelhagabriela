@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Jogo da velha - PWA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white" />
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="images/tictac.png" />
+</head>
+<body>
+
+<div>
+   <h1>Jogo da Velha - Gabriela Marques </h1>
+    <p>Como jogar?
+    <p>O primeiro jogador deve inserir no quadrante o X, e o segundo a bolinha, e assim sucessivamente até encerrar o jogo</p>
+</p>
+
+<div class="registroplacar">
+    <center> 
+    <span>Jogador 1 (X): <span id="pontosX">0</p></spam>
+    <span>Jogador 2 (O): <span id="pontosO">0</p></span>
+</center>
+</div>
+
+    
+<div class="quadrante">
+    <center> 
+       <div>
+    <input type="text" id="quad1" maxlength="1" onkeypress="window.compara()">
+    <input type="text" id="quad2" maxlength="1" onkeypress="window.compara()">
+    <input type="text" id="quad3" maxlength="1" onkeypress="window.compara()">
+       </div> 
+       <div>
+    <input type="text" id="quad4" maxlength="1" onkeypress="window.compara()">
+    <input type="text" id="quad5" maxlength="1" onkeypress="window.compara()">
+    <input type="text" id="quad6" maxlength="1" onkeypress="window.compara()">
+       </div>
+       <div>
+    <input type="text" id="quad7" maxlength="1" onkeypress="window.compara()">
+    <input type="text" id="quad8" maxlength="1" onkeypress="window.compara()">
+    <input type="text" id="quad9" maxlength="1" onkeypress="window.compara()">
+       </div>
+    </div>
+</div>
+</center>
+
+<div clas="buttonn">
+<center><button onclick="reiniciarjogo()">Reiniciar Jogo</button></center>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

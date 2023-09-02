@@ -1,0 +1,15 @@
+{
+  "name": "tictactoegabrielapwa",
+  "version": "1.0.0",
+  "description": "tictactoe",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "gr",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
